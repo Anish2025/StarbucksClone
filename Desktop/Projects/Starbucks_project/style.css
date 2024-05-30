@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* / font-family: Sodo; */
+}
+
+.nav-bar {
+    height: 72px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-image: url("./images/logo.png");
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+
+}
+
+.nav-text {
+    font-size: 1rem;
+    color: #6B6B6B;
+    /* font-size: 1rem; */
+
+}
+
+.nav-text a {
+    margin-right: 70px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 36px;
+    width: 264px;
+    border-radius: 20px;
+    /* box-shadow: 2px 2px 1px 1px white; */
+    border: 0.5px solid black;
+
+}
+
+.search i {
+    margin: 10px;
+    font-size: 20px;
+    color: #6B6B6B;
+    /* background-color: chartreuse; */
+}
+
+.search-input {
+    border: none;
+
+}
+
+.contect {
+    /* background-color: blanchedalmond; */
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #6B6B6B;
+
+}
+
+/* nav-2  */
+.nav-2 {
+    height: 72px;
+    background-color: #1E3932;
+    color: #EDEBE9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 4px solid #c7c6c6;
+
+}
+
+.nav-2 a {
+    font-size: 20px;
+    /* font-weight: 100; */
+    font-weight: lighter;
+    margin-left: 125px;
+
+}
+
+.nav-btn {
+    margin-right: 155px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 0.85rem;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 30px;
+
+}
+
+/**Hero section**/
+.hero-section {
+    margin-top: 20px;
+}
+
+
+.recomand {
+    height: 316px;
+    background-color: #EDEBE9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.hero-section a {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #1E3932;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.hero-section span {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #00754A;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.card1 {
+    height: 160px;
+    width: 400px;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.img1 {
+    background-image: url("./images/bunachicken.jpg");
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+
+
+}
+
+.card-item {
+    display: flex;
+    padding: 16px 20px;
+    gap: 16px;
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+
+.rate button {
+    margin-right: 24px;
+    /* margin-bottom: 10px; */
+    background-color: #00754A;
+    color: #ffffff;
+    font-weight: 0.85rem;
+    height: 30px;
+    width: 100px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.quantity i {
+    color: #D62B1F;
+
+}
+
+/**Spring Collection**/
+.img-spring {
+    background-image: url("./images/banner.bggggg.jpg");
+    margin-left: 120px;
+    margin-top: 80px;
+    height: 210px;
+    width: 85%;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.imgg {
+    background-image: url("./images/banner-icon.png");
+    height: 210px;
+    width: 100px;
+    background-size: cover;
+}
+
+.spring-content {
+    margin-top: 20px;
+    line-height: 1.6;
+
+}
+
+.price {
+    /* //background-color: #D62B1F; */
+    margin-top: 45px;
+}
+
+.spring-content p {
+    font-size: 14px;
+
+}
+
+/* Learn more about the world of coffee! design */
+
+.world-coffee {
+    margin-top: 80px;
+    height: 500px;
+    background-color: #EDEBE9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.world-coffee-img {
+    background-image: url("./images/world-coffee.jpg");
+    height: 372px;
+    width: 85%;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    /* position: relative; */
+}
+
+.world-coffee-content h2 {
+    color: #1E3932;
+    margin-right: 750px;
+    margin-top: 30px;
+}
+
+.world-coffee-content h4 {
+    color: #1E3932;
+    /* margin-right: 750px; */
+    margin-top: 30px;
+}
+
+.world-coffee-content {
+    display: flex;
+
+}
+
+.coff {
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #ced4d2;
+    color: #00754A;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.Art {
+    margin-top: 160px;
+    line-height: 2;
+}
+
+.art button {
+    margin-top: 40px;
+}
+
+.coffee-culture {
+    margin-left: 16px;
+
+}
+
+.coffee-culture button {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 0.85rem;
+    height: 30px;
+    width: 200px;
+    border: 0;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+/* footer */
+.foot-desc {
+    margin-top: 50px;
+    height: 500px;
+    background-color: #0E382C;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+
+    /* align-items: center; */
+}
+
+.box {
+    margin-top: 130px;
+}
+
+.box ul li {
+    margin: 16px 0px 24px;
+    list-style-type: none;
+    font-size: small;
+    font-weight: 100;
+}
+
+.foot-logo {
+    background-image: url("./images/logo.png");
+    height: 62px;
+    width: 62px;
+    background-size: cover;
+}
+
+.media {
+    margin-top: 16px;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download {
+    font-size: 35px;
+}
+
+.google {
+    background-image: url("./images/gooogle.jpeg");
+
+    height: 204px;
+    width: 362px;
+    background-size: cover;
+}
+
